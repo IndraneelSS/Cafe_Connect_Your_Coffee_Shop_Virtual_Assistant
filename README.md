@@ -3,7 +3,7 @@
 
 Welcome to the Coffee Shop Customer Service Chatbot project! This repository contains the code, resources, and instructions to build an AI-powered chatbot designed to enhance customer experiences in a coffee shop app. Leveraging the power of LLMs (Large Language models), Natural Language Processing (NLP), and RunPod's infrastructure, this chatbot can assist with taking orders, answering detailed menu queries, and providing personalized product recommendations—all within a React Native mobile app.
 
-# 🎯 Project Overview
+# Project Overview
 The goal of this project is to create a smart, **agent-based chatbot** that can:
 * Handle real-time customer interactions with the chatbot including orders.
 * Answer questions about menu items, including ingredients and allergens through a **Retreival augmented Generation (RAG) system**.
@@ -11,7 +11,7 @@ The goal of this project is to create a smart, **agent-based chatbot** that can:
 * Guide customers through a seamless order process, ensuring accurate and structured order details.
 * Block irrelevant or harmful queries using a Guard Agent for safe and relevant interactions.
 
-## 🔧 Learning Outcomes
+##  Learning Outcomes
 Through this project, you will gain hands-on experience in:
 * Deploying your personal LLM with RunPod
 * Deploying an agent-based system with specialized agents like Order Taking, Details, and Guard agents.
@@ -20,12 +20,12 @@ Through this project, you will gain hands-on experience in:
 * Training and deploying a recommendation engine.
 * Building a React Native app that integrates this powerful chatbot.
 
-## 🧠 Chatbot Agent Architecture
+##  Chatbot Agent Architecture
 ![Coffee Shop Agent Architecture](./images/chatbot_agent_architecture.jpg)
 
 The chatbot in this project is designed using a modular agent-based architecture, where each agent is responsible for a specific task, ensuring a seamless and efficient interaction between the user and the coffee shop’s services. This architecture enables the chatbot to perform complex actions by delegating tasks to specialized agents, making the system highly flexible, scalable, and easy to extend.
 
-### 🤖 Key Agents in the System:
+###  Key Agents in the System:
 1. **Guard Agent:**
 This agent acts as the first line of defense. It monitors all incoming user queries and ensures that only relevant and safe messages are processed by the other agents. It blocks inappropriate, harmful, or irrelevant queries, protecting the system and ensuring smooth conversations with users.
 2. **Order Taking Agent:**
@@ -49,7 +49,7 @@ The agents work collaboratively in a pipeline architecture to process user input
     * The Recommendation Agent suggests complementary products.
 
 
-## 📱 React Native Coffee Shop App
+##  React Native Coffee Shop App
 ![Coffee Shop Agent Architecture](./images/mobile_app.png)
 
 The React Native Coffee Shop App serves as the front-end interface for customers to interact with the AI-powered chatbot and explore the menu. Designed with a clean, intuitive user experience in mind, the app seamlessly integrates the chatbot for real-time customer service, enabling users to place orders, receive personalized product recommendations, and get detailed information about menu items.
